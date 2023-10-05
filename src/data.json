@@ -1,0 +1,27 @@
+[
+    {
+        "data":[
+            {
+                "id":1,
+                "name":"Benchmark",
+                "image":"./assets/Benchmark.png",
+                "discription":"Photography WordPress Theme",
+                "price":"59.00"
+            },
+            {
+                "id":2,
+                "name":"ChapterOne",
+                "image":"./assets/ChapterOne.png",
+                "discription":"Photography WordPress Theme",
+                "price":"74.00"
+            },
+            {
+                "id":3,
+                "name":"Avtorai",
+                "image":"./assets/Avtorai.png",
+                "discription":"Photography WordPress Theme",
+                "price":"30.00"
+            }
+        ]
+    }
+]

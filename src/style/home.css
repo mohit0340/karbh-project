@@ -8,3 +8,15 @@
     color: red;
     /* border:1px solid red; */
 }
+
+/* footer */
+
+.social-link{
+    color:white;
+    
+    transition: 0.5s;
+}
+.social-link:hover{
+    color: red;
+    /* border:1px solid red; */
+}

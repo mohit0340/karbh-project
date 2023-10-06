@@ -35,7 +35,7 @@ const handleaddtocart=(val)=>{
 
 
         <div className='d-flex flex-wrap gap-5 align-items-center ' style={{marginTop:"150px"}}>
-            <img src='https://themebing.com/wp/tijarah/wp-content/uploads/2020/01/1.png' className=" img-fluid" style={{height:"28px",width:"154px"}}></img>
+            <img src='https://themebing.com/wp/tijarah/wp-content/uploads/2020/01/1.png' className=" img" style={{height:"28px",width:"154px"}}></img>
             <img src='https://themebing.com/wp/tijarah/wp-content/uploads/2020/01/2.png' className="img" style={{height:"28px",width:"154px"}}></img>
             <img src='https://themebing.com/wp/tijarah/wp-content/uploads/2020/01/3.png' className="img" style={{height:"28px",width:"154px"}}></img>
             <img src='https://themebing.com/wp/tijarah/wp-content/uploads/2020/01/4.png' className="img" style={{height:"28px",width:"154px"}}></img>
@@ -60,7 +60,7 @@ const handleaddtocart=(val)=>{
         <div className='d-flex mt-5 justify-content-between '>{
             data.map((val)=>(
             <div className='shadow-lg rounded-3 ' key={val.id}>
-                <img src={val.image} className='rounded-2 rounded-bottom-0' style={{width:"350px",height:"250px"}}  />
+                <img src={val.image} className='rounded-2 rounded-bottom-0 ' style={{width:"350px",height:"250px"}}  />
                 <div className='m-2  d-flex flex-column'>
                     <p className='fs-4 fw-bold'>{val.name}</p>
                     <p className='fs-5 fw-medium text-secondary'>{val.discription}</p>
@@ -82,7 +82,7 @@ const handleaddtocart=(val)=>{
         </div>
 
 
-        <div className='container text-center d-flex justify-content-between gap-5 mt-5' >
+        <div className='container text-center d-flex bg-light-subtle justify-content-between gap-5 mt-5' >
         <div className='d-flex flex-column align-items-center rounded-2 p-3  gap-3' style={{backgroundColor:" rgba(144, 19, 254, 0.06)"}}>
             <p className=' rounded-5 text-light p-3 fw-bolder' style={{backgroundImage:"linear-gradient(180deg, #E08BFC 0%, #7357FB 180%)"}}><CodeOffRoundedIcon></CodeOffRoundedIcon></p>
             <p className='fs-4 fw-bold'>We are Open Source</p>

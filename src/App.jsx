@@ -23,7 +23,7 @@ function App() {
   
 
   return (
-    <div className=' w-100' style={{fontFamily:"arial"}}>
+    <div className=' w-100 ' style={{fontFamily:"arial",minHeight:"100vh"}} >
       <ToastContainer autoClose={1500} position={'top-center'}/>
       <BrowserRouter>
       <Navbar></Navbar>
